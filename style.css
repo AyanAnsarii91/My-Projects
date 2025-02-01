@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    height: 410px;
+    width: 290px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    left: 35%;
+    top: 10%;
+    color: green;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(163, 245, 245);
+    border-radius: 10px;
+}
+
+.screen {
+    display: flex;
+    position: relative;
+    left: 53%;
+    bottom: 45%;
+}
+
+.screen input {
+    width: 280px;
+    padding: 10px;
+    margin: 5px 0;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(190, 255, 255);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.all-btn {
+    position: relative;
+    right: 50%;
+    z-index: 2;
+    padding: 5px;
+    top: 10%;
+}
+
+.all-btn button {
+    width: 50px;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: aliceblue;
+    margin: 12px;
+    color: white;
+    background-color: rgb(160, 228, 228);
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.buttons-1 {
+    display: flex;
+}
+
+.buttons-2 {
+    display: flex;
+}
+
+.buttons-3 {
+    display: flex;
+}
+
+.buttons-4 {
+    display: flex;
+}
+
+.buttons-5 {
+    display: flex;
+}
